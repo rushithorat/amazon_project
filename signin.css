@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-boxs;
+}
+.top-image{
+    width: 30vh;
+    height: 15vh;
+    margin-top: 0;
+}
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.signin{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+   margin-top: 3vh;
+   margin-left: 3vh;
+   font-size: 5vh;
+   font-weight: 500;
+}
+.in{
+    height: 53vh;
+    width: 48vh;
+    /* background-color: aqua; */
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    /* margin-top: 5vh; */
+}
+
+.phone{
+    margin-left: 3vh;
+    margin-top: 3vh;
+}
+.phone h5{
+    font-size: 1.7vh;
+    font-weight: 400;
+}
+input{
+    width: 40vh;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+        width: 40vh;
+        height: 4.5vh;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-top: 2vh;
+        background-color: #ffc228;
+        border: none;
+    }
+
+    .phone p{
+        font-size: 1.5vh;
+        margin-top: 3vh;
+        line-height: 2vh;
+    }
+
+    .phone a{
+        text-decoration: none;
+        color: #0066c0;
+        cursor: pointer;
+    }
+
+    .phone a:hover{
+    color: brown;
+    text-decoration: underline;
+    }
+
+    .help{
+        margin-top: 3vh;
+    }
+    .help i{
+        color: gray;
+    }
+    .help a{
+        font-size: 2vh;
+        cursor: pointer;
+    }
+    .help a:hover{
+        text-decoration: underline;
+        color: brown;
+    }
+
+    .work{
+        margin-top: 7vh;
+    }
+
+    .buis{
+        margin-top: 1vh;
+    }
+    .buis a{
+    font-size: 1.6vh;
+    margin-top: 3vh;
+    }
+
+    .new{
+        margin-top: 4vh;
+    }
+    .new h5{
+        color: rgb(181, 177, 177);
+        font-weight: 600;
+        margin-left: 18vh;
+    }
+    .new button{
+    background: none;
+    border: 1px solid rgb(221, 221, 221);
+    width: 50vh;
+    }
+    
+    .conditions{
+        width: 40vh;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 6vh;
+    }
+    .conditions a{
+        text-decoration: none;
+        color: #0066c0;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.5vh;
+    }
+
+    .conditions a:hover{
+    color: brown;
+    text-decoration: underline;
+    }
+
+    .copyright{
+        margin-top: 2vh;
+        font-size: 1.7vh;
+        font-weight: 500;
+    }
+/* .new button a{
+    text-decoration: none;
+    color: grey;
+} */

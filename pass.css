@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-boxs;
+}
+.top-image{
+    width: 30vh;
+    height: 15vh;
+}
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.signin{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+   margin-top: 3vh;
+   margin-left: 3vh;
+   font-size: 5vh;
+   font-weight: 500;
+}
+.in{
+    height: 50vh;
+    width: 48vh;
+    /* background-color: aqua; */
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    /* margin-top: 5vh; */
+}
+.passkey{
+    display: flex;
+    justify-content: space-between;
+}
+.passkey a{
+    font-size: 1.5vh;
+    margin-right: 5vh;
+}
+.phone{
+    margin-left: 3vh;
+    margin-top: 3vh;
+}
+.phone h5{
+    font-size: 1.7vh;
+    font-weight: 400;
+}
+
+input{
+    width: 40vh;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.para{
+    display: flex;
+    /* background-color: aqua; */
+    margin-right: 10%;
+    padding: 0%;
+
+}
+.para a{
+    margin-left: 2vh;
+}
+.para i{
+    color: gray;
+}
+button{
+        width: 40vh;
+        height: 4.5vh;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-top: 2vh;
+        background-color: #ffc228;
+        border: none;
+    }
+
+    .phone p{
+        font-size: 1.7vh;
+        margin-top: 3vh;
+        line-height: 2vh;
+    }
+
+    .phone a, .nw-part a{
+        text-decoration: none;
+        color: #0066c0;
+        cursor: pointer;
+    }
+
+   .nw-part a:hover, .phone a:hover{
+    color: brown;
+    text-decoration: underline;
+    }
+    .nw-part a{
+        font-size: 0.8vw
+    }
+    #checking{
+        font-size: 1vh;
+        padding: 1vh ;
+        height: 2vh;
+        width: 2vh;
+        margin-right: 2vh;
+    }
+    /* .help{
+        margin-top: 3vh;
+    }
+    .help i{
+        color: gray;
+    }
+    .help a{
+        font-size: 2vh;
+    }
+
+    .work{
+        margin-top: 7vh;
+    }
+
+    .buis{
+        margin-top: 1vh;
+    }
+    .buis a{
+    font-size: 1.6vh;
+    margin-top: 3vh;
+    }
+
+    .new{
+        margin-top: 4vh;
+    }
+    .new h5{
+        color: rgb(181, 177, 177);
+        font-weight: 600;
+        margin-left: 18vh;
+    }
+    .new button{
+    background: none;
+    border: 1px solid rgb(221, 221, 221);
+    width: 50vh;
+    } */
+    .otp{
+        margin-top: 5vh;
+        margin-left: 3vh;
+     }
+     .otp h6{
+        margin-left: 20vh;
+        color: rgb(181, 177, 177);
+     }
+     .one-time{
+        background: none;
+        border: 0.5px solid gray;
+     }
+    .conditions{
+        width: 40vh;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 6vh;
+    }
+    .conditions a{
+        text-decoration: none;
+        color: #0066c0;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.5vh;
+    }
+
+    .conditions a:hover{
+    color: brown;
+    text-decoration: underline;
+    }
+
+    .copyright{
+        margin-top: 2vh;
+        font-size: 1.7vh;
+        font-weight: 500;
+    }
+.nw-part{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#nw{
+    border: none;
+    outline: none;
+}

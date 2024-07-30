@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+ <img src="current-logo-600x338-removebg-preview.png" height="75vw" width="150vw" >   
+    <div class="box">
+<h1>Create Account</h1>
+<h3>Your name</h3>
+<input type="text" placeholder="      First and last name" id="name" class="hover" > 
+<h3>Mobile Number</h3>
+<div class="mob-div">
+    <select class="hover">
+        <option>IND +91</option>
+        <option>PAK +92</option>
+        <option>Tur +90</option>
+        <option>USA +1</option>
+        <option>AUS +61</option>
+        <option>BAN +880</option>
+        <option>CHINA +86</option>
+        <option>COL +57</option>
+        <option>ITALY +39</option>
+        <option>IRAN +98</option>
+      
+    </select>
+    <input type="text" placeholder="   Mobile Number" id="mobile" class="hover"> 
+</div>
+<input type="text" id="invalid-m" readonly>
+<h3>Password</h3>
+<input type="password" placeholder="     Atleast 6 Characters with special character and symbol" id="pass" oninput=" validatePassword(password);" class="hover">
+<input type="text" readonly id="invalid" >  
+<p>To verify your number, we will send you a text<p> message with a temporary code. Message and data</p><p> rates may apply.</p>
+<button class="button" onclick="verify();">
+    Verify mobile number
+</button>
+<div class="buy">
+    <h3>Buying for work ?</h3>
+    <a href="#">Create a free business account</a>
+</div>
+<div class="sign">
+<h5>Already have an account ?<a href="signin.html">Sign in ></a></h5>
+</div>
+<div class="end">
+<p>By creating an account or logging in, you agree to </p><p>Amazon’s <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_register_notification_condition_of_use?ie=UTF8&nodeId=200545940">Conditions of Use </a>and <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_register_notification_privacy_notice?ie=UTF8&nodeId=200534380">Privacy Policy.</a></p>
+</div>
+</div>
+<div class="fot">
+    <div class="fot1">
+        <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_register_notification_condition_of_use?ie=UTF8&nodeId=200545940">Conditions</a>
+        <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_register_notification_privacy_notice?ie=UTF8&nodeId=200534380">Privacy notice</a>
+        <a href="https://www.amazon.in/gp/help/customer/display.html?ie=UTF8&nodeId=508510">Help</a>
+    </div>
+    <div class="fot2">
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </div>
+</div>
+<script src="signup.js"></script>
+</body>
+</html>
